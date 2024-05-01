@@ -4,9 +4,22 @@ body{
 }
 
 .Header{
-    text-align: 'center';
+    max-width: fit-content;     
+    margin-inline: auto;
 }
 
 .Section{
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.Employment{
+    margin-left: 15px;
+}
+
+.Education{
+    margin-left: 15px;
 }
