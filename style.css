@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 4px;
-
+    margin-inline: fit-content;
     background-color: beige;
     border-radius: 15px;
 }
@@ -22,6 +22,11 @@ body{
 }
 
 .Education{
+    margin-left: 25px;
+    max-width: 80%;
+}
+
+.Indent{
     margin-left: 25px;
     max-width: 80%;
 }
