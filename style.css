@@ -3,11 +3,6 @@ body{
     margin-right: 10%;
 }
 
-.Header{
-    max-width: fit-content;     
-    margin-inline: auto;
-}
-
 .Section{
     display: flex;
     flex-direction: column;
@@ -17,10 +12,16 @@ body{
     border-radius: 15px;
 }
 
-.Employment{
+.Subtitle{
     margin-left: 15px;
 }
 
+.Employment{
+    margin-left: 25px;
+    max-width: 80%;
+}
+
 .Education{
-    margin-left: 15px;
+    margin-left: 25px;
+    max-width: 80%;
 }
