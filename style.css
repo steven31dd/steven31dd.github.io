@@ -30,3 +30,42 @@ body{
     margin-left: 25px;
     max-width: 80%;
 }
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Header{
+  	text-align: center;
+  	border-bottom: 2px solid black;
+  	margin-bottom: 20px;
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-inline: fit-content;
+    background-color: beige;
+    border-radius: 15px;
+  	margin-bottom: 10px;
+}
+
+.Subtitle{
+    margin-left: 15px;
+}
+
+.Employment{
+    margin-left: 25px;
+    max-width: 80%;
+}
+
+.Education{
+    margin-left: 25px;
+    max-width: 80%;
+}
+
+.Indent{
+    margin-left: 25px;
+    max-width: 80%;
+}
